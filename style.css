@@ -46,4 +46,51 @@ color:white;
 
 font-size:18px;
 
+}.form{
+
+padding:
+
+140px 30px;
+
+max-width:
+
+500px;
+
+margin:auto;
+
+}
+
+input,
+textarea{
+
+width:100%;
+
+padding:18px;
+
+margin:10px 0;
+
+border-radius:18px;
+
+border:none;
+
+background:white;
+
+}
+
+textarea{
+
+height:160px;
+
+}
+
+.memory{
+
+background:white;
+
+padding:20px;
+
+border-radius:20px;
+
+margin-top:20px;
+
 }
