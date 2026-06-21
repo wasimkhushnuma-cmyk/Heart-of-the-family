@@ -1,49 +1,49 @@
-function addMemory(){
+document.addEventListener(
+"DOMContentLoaded",
+()=>{
 
-const div=
+window.addMemory=
+function(){
+
+const memories=
+document.getElementById(
+"memories"
+)
+
+const box=
 document.createElement(
 "div"
 )
 
-div.className=
+box.className=
 "memory"
 
-div.innerHTML=`
+box.innerHTML=`
 
 <input
-placeholder=
-"Photo URL">
+type="file"
+accept="image/*">
 
 <textarea
-placeholder=
-"Message">
-
+placeholder="Write message">
 </textarea>
 
 `
 
-document
-.getElementById(
-"memories"
-)
-.appendChild(
-div
+memories.appendChild(
+box
 )
 
 }
 
-function generate(){
+window.generate=
+function(){
 
-const id=
-
-Math.random()
-
-.toString(36)
-
-.slice(2)
-
-window.location=
-
-`../view.html?id=${id}`
+alert(
+"Upload enabled"
+)
 
 }
+
+}
+)
